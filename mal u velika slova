@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    char lower_case_letter, upper_case_letter;
+
+    // Ask user to enter a small letter
+    printf("Enter a small letter: ");
+    scanf("%c", &lower_case_letter);
+
+    // Convert small letter to big letter
+    upper_case_letter = lower_case_letter - 32;
+
+    // Print the result
+    printf("The big letter is: %c
+", upper_case_letter);
+
+    return 0;
+}
